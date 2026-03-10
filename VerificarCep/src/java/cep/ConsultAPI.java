@@ -7,7 +7,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConsultAPI {
-
+    
     public String api (PutCep c) throws IOException, InterruptedException {
         try {
             String cep =  "https://"+ "viacep.com.br/ws/" + c.getCep() + "/json/";
